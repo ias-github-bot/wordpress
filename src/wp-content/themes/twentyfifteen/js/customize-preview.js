@@ -2,6 +2,7 @@
  * Live-update changed settings in real time in the Customizer preview.
  */
 
+( function( $ ) {
 	var $style = $( '#twentyfifteen-color-scheme-css' ),
 		api = wp.customize;
 
